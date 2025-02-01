@@ -1,0 +1,103 @@
+[
+    {
+      "model": "pages.client",
+      "pk": 1,
+      "fields": {
+        "name": "John Doe",
+        "priority": "accuracy",
+        "language": "en",
+        "punctuality_rating": 4.8
+      }
+    },
+    {
+      "model": "pages.client",
+      "pk": 2,
+      "fields": {
+        "name": "Jane Smith",
+        "priority": "speed",
+        "language": "fr",
+        "punctuality_rating": 4.5
+      }
+    },
+    {
+      "model": "pages.client",
+      "pk": 3,
+      "fields": {
+        "name": "Ahmed Ali",
+        "priority": "accuracy",
+        "language": "ar",
+        "punctuality_rating": 4.9
+      }
+    },
+    {
+      "model": "pages.client",
+      "pk": 4,
+      "fields": {
+        "name": "Emily Johnson",
+        "priority": "speed",
+        "language": "es",
+        "punctuality_rating": 4.7
+      }
+    },
+    {
+      "model": "pages.client",
+      "pk": 5,
+      "fields": {
+        "name": "Carlos Ruiz",
+        "priority": "accuracy",
+        "language": "es",
+        "punctuality_rating": 4.6
+      }
+    },
+    {
+      "model": "pages.translator",
+      "pk": 1,
+      "fields": {
+        "name": "Alice Smith",
+        "languages": ["en", "fr"],
+        "accuracy_rating": 4.7,
+        "speed_rating": 4.5
+      }
+    },
+    {
+      "model": "pages.translator",
+      "pk": 2,
+      "fields": {
+        "name": "Michael Johnson",
+        "languages": ["en", "es"],
+        "accuracy_rating": 4.6,
+        "speed_rating": 4.8
+      }
+    },
+    {
+      "model": "pages.translator",
+      "pk": 3,
+      "fields": {
+        "name": "Fatima Hassan",
+        "languages": ["ar", "en"],
+        "accuracy_rating": 4.9,
+        "speed_rating": 4.3
+      }
+    },
+    {
+      "model": "pages.translator",
+      "pk": 4,
+      "fields": {
+        "name": "Hiroshi Tanaka",
+        "languages": ["ja", "en"],
+        "accuracy_rating": 4.8,
+        "speed_rating": 4.7
+      }
+    },
+    {
+      "model": "pages.translator",
+      "pk": 5,
+      "fields": {
+        "name": "Maria Gonzalez",
+        "languages": ["es", "fr"],
+        "accuracy_rating": 4.5,
+        "speed_rating": 4.6
+      }
+    }
+  ]
+  
